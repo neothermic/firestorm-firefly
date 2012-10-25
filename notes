@@ -1,0 +1,27 @@
+Min requirements:
+	
+
+	Motors + Props
+		See ScoutUAV website about motors and prop recommendations
+	
+	Battery
+		LiPo - Do we have a target flight time? Most existing models average around 8-15 mins flight time
+
+	Arduino!
+		Nano to save weight? This drives the price up...
+		If we are using our arduino as a flight controller, do we need an arduino MEGA as currently laser tag uses all the digital 			pins.
+
+	Raspi!
+		Again, model A is lighter but we probably need the specs of the model B
+
+	IMU
+		Inertial Measurement Unit - We have a few options here, we probably need 6 degrees of freedom - is it worthwhile going up to 			9? (Adding a magnetometer so we know which direction we're facing NSEW)
+		Ardupilot is a bit of an all in one cheaty solution which includes the microcontroller (our arduino would not be used for 			flight control) but it might be a bit of a hollow victory. 
+		Sparkfun's 9DOF sensor stick looks like a good candidate assuming we can make it work - do we buy the sparkfun board or 		attempt to make our own? Full schematics are available...
+
+	Frame
+		We could try to build this, but since it is likely to be a big cause of any instability or excess weight it might be an area 			to concede and just buy a prebuilt one.
+
+	Wifi adapter
+
+
