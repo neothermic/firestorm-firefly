@@ -24,4 +24,46 @@ Min requirements:
 
 	Wifi adapter
 
+		The usual cheap as chips adapter, or is there something more significant required?
+
+	Radio Control ?
+		
+		It is possible that all the control needed could be done over WiFi, but would it be safer/more fun to add a more direct radio 			control package? This would need to have 7 control lines at minimum, but may benefit from more.
+
+
+Features and ideas
+
+Hardware:
+
+	GPS
+		
+		Reasonably costly and potentially unecessary, but fun to have?
+	
+	Collision detection/prevention
+		
+		Some sort of sensor to detect proximity to objects in the world and automatically avoid them?
+		Ultrasonic detectors?
+		Infrared detectors?
+
+	Altimeter
+
+		To an extent altitude can be calculated based on vertical acceleration, would an actual altimeter be useful?
+		A downward pointing rangefinder may be useful for landing/ground hugging applications.
+
+	Camera
+		
+		Mounted on a servo driven mounting, probably only required for up/down motion since quadcopter should be able to spin easily 			without altering its position.
+
+	Locator beacon
+		
+		If drone ever crashes in the woods or in a large field, how do we expect to find it? Could we engineer a sufficiently 			lightweight audio/visual beacon of some sort.
+
+	
+Software:
+	
+	Auto return on loss of signal to predefined co-ordinates
+	Geofencing - particularly on altitude
+	Auto return on low battery + land
+	Auto follow mode
+	Direct radio control mode (automatic stabilisation and collision prevention / safety features would all stay active)
 
